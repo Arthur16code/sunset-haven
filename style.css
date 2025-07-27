@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e4d9c4;
+}
+
+header {
+    color: white;
+    text-align: center;
+    background-image: url(sunset1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+h1{
+    margin: 0px;
+}
+
+.rooms {
+    justify-content: space-between;
+    padding: 20px;
+    display: flex;
+}
+
+p {
+    margin: 0px;
+}
+
+.comodies{
+    justify-content: space-evenly;
+    display: flex;
+    padding: 1vw;
+    background-color: #ffffff;
+    width: 90vw;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 5px;
+    width: 40vw;
+}
+
+section{
+    padding: 5px;
+    text-align: center;
+}
+
+.quartos{
+    display: grid;
+}
+
+
+.room1 {
+    margin-right: 10px;
+    background-color: #ffffff;
+    width: 40vw;
+    padding: 10px;
+}
+
+.room2{
+    margin-right: 10px;
+    background-color: #ffffff;
+    width: 40vw;
+    padding: 10px;
+}
+
+.room {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(223, 175, 158);
+}
